@@ -1,0 +1,20 @@
+body{
+    height: 200px;
+    width: 300px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    margin: auto;
+    padding: 10px;
+    font-size: 25px;
+    display: inner-flex;
+    animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+    100% { color: orangered; }
+    0% { color: crimson }
+}
